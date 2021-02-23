@@ -22,7 +22,7 @@ const Component = (props) => (
               <div className="space-y-2">
                 <div className="text-lg leading-6 font-medium space-y-1">
                   <h3>Whitney Francis</h3>
-                  <p className="text-indigo-600">Copywriter</p>
+                  <p className="text-blue">Copywriter</p>
                 </div>
                 <ul className="flex justify-center space-x-5">
                   <li>
@@ -70,7 +70,7 @@ const Component = (props) => (
               <div className="space-y-2">
                 <div className="text-lg leading-6 font-medium space-y-1">
                   <h3>Leonard Krasner</h3>
-                  <p className="text-indigo-600">Senior Designer</p>
+                  <p className="text-blue">Senior Designer</p>
                 </div>
                 <ul className="flex justify-center space-x-5">
                   <li>
@@ -118,7 +118,7 @@ const Component = (props) => (
               <div className="space-y-2">
                 <div className="text-lg leading-6 font-medium space-y-1">
                   <h3>Floyd Miles</h3>
-                  <p className="text-indigo-600">Principal Designer</p>
+                  <p className="text-blue">Principal Designer</p>
                 </div>
                 <ul className="flex justify-center space-x-5">
                   <li>
@@ -166,7 +166,7 @@ const Component = (props) => (
               <div className="space-y-2">
                 <div className="text-lg leading-6 font-medium space-y-1">
                   <h3>Emily Selman</h3>
-                  <p className="text-indigo-600">VP, User Experience</p>
+                  <p className="text-blue">VP, User Experience</p>
                 </div>
                 <ul className="flex justify-center space-x-5">
                   <li>
@@ -214,7 +214,7 @@ const Component = (props) => (
               <div className="space-y-2">
                 <div className="text-lg leading-6 font-medium space-y-1">
                   <h3>Kristin Watson</h3>
-                  <p className="text-indigo-600">VP, Human Resources</p>
+                  <p className="text-blue">VP, Human Resources</p>
                 </div>
                 <ul className="flex justify-center space-x-5">
                   <li>
@@ -262,7 +262,7 @@ const Component = (props) => (
               <div className="space-y-2">
                 <div className="text-lg leading-6 font-medium space-y-1">
                   <h3>Emma Dorsey</h3>
-                  <p className="text-indigo-600">Senior Front-end Developer</p>
+                  <p className="text-blue">Senior Front-end Developer</p>
                 </div>
                 <ul className="flex justify-center space-x-5">
                   <li>

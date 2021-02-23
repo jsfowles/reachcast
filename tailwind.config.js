@@ -15,17 +15,46 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-
-      black: colors.black,
-      white: colors.white,
-      gray: colors.coolGray,
-      red: colors.red,
-      yellow: colors.amber,
-      green: colors.emerald,
-      blue: colors.blue,
-      indigo: colors.indigo,
-      purple: colors.violet,
-      pink: colors.pink,
+      white: '#FFFFFF',
+      blue: {
+        light: '#35C9EE',
+        DEFAULT: '#00B5E2',
+        dark: '#0098BE',
+      },
+      gray: {
+        light: '#D9E1E9',
+        DEFAULT: '#CDD7E1',
+        dark: '#BBC5CF',
+      },
+      black: {
+        light: '#5B6770',
+        DEFAULT: '#1D252D',
+        dark: '#090C10',
+      },
+      green: {
+        light: '#4AC7C1',
+        DEFAULT: '#00B2A9',
+        dark: '#03A39C',
+      },
+      orange: {
+        light: '#FF985D',
+        DEFAULT: '#FF8038',
+        dark: '#EA6D27',
+      },
+      red: {
+        light: '#E80E41',
+        DEFAULT: '#D50032',
+        dark: '#D50032',
+      },
+      grayTones: {
+        50: '#F3F7FA',
+        100: '#E2EAF2',
+        200: '#BBC5CF',
+        300: '#9AA5AF',
+        400: '#78838E',
+        500: '#67707A',
+        600: '#465058',
+      },
     },
     spacing: {
       px: '1px',
