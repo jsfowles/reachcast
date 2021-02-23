@@ -1,6 +1,12 @@
+import Hero from '@components/Hero';
+import CTA from '@components/CTA';
+import Speakers from '@components/Speakers';
+
 const Home = () => (
-  <div>
-    <p className="w-full">Drop In</p>
-  </div>
+  <>
+    <Hero />
+    <CTA />
+    <Speakers />
+  </>
 );
 export default Home;
