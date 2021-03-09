@@ -15,36 +15,28 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      white: '#FFFFFF',
+      white: { DEFAULT: '#FFFFFF', dark: '#F9FBFC' },
       blue: {
-        light: '#35C9EE',
-        DEFAULT: '#00B5E2',
-        dark: '#0098BE',
+        light: '#779CAB',
+        DEFAULT: '#08BBD7',
       },
       gray: {
-        light: '#D9E1E9',
-        DEFAULT: '#CDD7E1',
-        dark: '#BBC5CF',
+        DEFAULT: '#627C85',
       },
       black: {
-        light: '#5B6770',
-        DEFAULT: '#1D252D',
-        dark: '#090C10',
+        DEFAULT: '#1D2527',
       },
       green: {
-        light: '#4AC7C1',
-        DEFAULT: '#00B2A9',
-        dark: '#03A39C',
+        DEFAULT: '#A2E8DD',
       },
       orange: {
-        light: '#FF985D',
-        DEFAULT: '#FF8038',
-        dark: '#EA6D27',
+        DEFAULT: '#FF8867',
       },
       red: {
-        light: '#E80E41',
-        DEFAULT: '#D50032',
-        dark: '#D50032',
+        DEFAULT: '#F9495C',
+      },
+      pink: {
+        DEFAULT: '#DE3285',
       },
       grayTones: {
         50: '#F3F7FA',
@@ -948,5 +940,6 @@ module.exports = {
   plugins: [
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/typography'),
+    require('@tailwindcss/forms'),
   ],
 };

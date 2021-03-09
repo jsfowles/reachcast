@@ -1,12 +1,10 @@
 import Hero from '@components/Hero';
-import CTA from '@components/CTA';
-import Speakers from '@components/Speakers';
+import Services from '@components/Services';
 
 const Home = () => (
-  <>
+  <div className="gradient pt-16 md:pt-20">
     <Hero />
-    <CTA />
-    <Speakers />
-  </>
+    <Services />
+  </div>
 );
 export default Home;

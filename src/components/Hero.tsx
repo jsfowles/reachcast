@@ -1,107 +1,36 @@
 const Hero = (props) => (
-  <div className="relative bg-grayTones-50 overflow-hidden">
-    <div
-      className="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full"
-      aria-hidden="true"
-    >
-      <div className="relative h-full max-w-7xl mx-auto">
-        <svg
-          className="absolute right-full transform translate-y-1/4 translate-x-1/4 lg:translate-x-1/2"
-          width="404"
-          height="784"
-          fill="none"
-          viewBox="0 0 404 784"
-        >
-          <defs>
-            <pattern
-              id="f210dbf6-a58d-4871-961e-36d5016a0f49"
-              x="0"
-              y="0"
-              width="20"
-              height="20"
-              patternUnits="userSpaceOnUse"
-            >
-              <rect
-                x="0"
-                y="0"
-                width="4"
-                height="4"
-                className="opacity-20"
-                fill="#35C9EE"
-              />
-            </pattern>
-          </defs>
-          <rect
-            width="404"
-            height="784"
-            fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)"
-          />
-        </svg>
-        <svg
-          className="absolute left-full transform -translate-y-3/4 -translate-x-1/4 md:-translate-y-1/2 lg:-translate-x-1/2"
-          width="404"
-          height="784"
-          fill="none"
-          viewBox="0 0 404 784"
-        >
-          <defs>
-            <pattern
-              id="5d0dd344-b041-4d26-bec4-8d33ea57ec9b"
-              x="0"
-              y="0"
-              width="20"
-              height="20"
-              patternUnits="userSpaceOnUse"
-            >
-              <rect
-                x="0"
-                y="0"
-                width="4"
-                height="4"
-                className="opacity-20"
-                fill="#35C9EE"
-              />
-            </pattern>
-          </defs>
-          <rect
-            width="404"
-            height="784"
-            fill="url(#5d0dd344-b041-4d26-bec4-8d33ea57ec9b)"
-          />
-        </svg>
-      </div>
-    </div>
-
-    <main className="my-16 mx-auto max-w-7xl px-4 sm:mt-24">
-      <div className="text-center">
-        <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-          <span className="block text-blue xl:inline">Underbelly Drop In</span>
-        </h1>
-        <p className="mt-3 max-w-md mx-auto text-base text-black-dark sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-          Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem
-          cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat
-          aliqua.
-        </p>
-        <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
-          <button className="rounded-md shadow bg-blue">
-            <a
-              href="/"
-              className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
-            >
-              Get started
-            </a>
-          </button>
-          <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-            <a
-              href="/"
-              className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"
-            >
-              Live demo
-            </a>
+  <div>
+    <div className="relative overflow-hidden">
+      <main>
+        <div className="pt-10 bg-gray-900 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
+          <div className="mx-auto max-w-7xl lg:px-8">
+            <div className="lg:grid lg:grid-cols-2 lg:gap-8">
+              <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
+                <div className="lg:py-24">
+                  <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
+                    <span className="block">Reach people the</span>
+                    <span className="block text-indigo-400">right way</span>
+                  </h1>
+                  <p className="mt-3 text-white text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+                    Telling it in the right places, and to the right people is
+                    how you stand out in a sea of competitors.
+                  </p>
+                </div>
+              </div>
+              <div className="lg:relative">
+                <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
+                  <img
+                    className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:max-w-none"
+                    src="/images/Illustration.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </main>
+      </main>
+    </div>
   </div>
 );
 export default Hero;
