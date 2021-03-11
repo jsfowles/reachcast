@@ -31,7 +31,7 @@ const Component = (props) => (
               </p>
               <a href="/" className="block mt-2">
                 <p className="text-xl font-semibold text-gray-900">
-                  Boost your conversion rate
+                  Danista, abnoba, et consilium.
                 </p>
                 <p className="mt-3 text-base text-grayTones-500">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -84,7 +84,8 @@ const Component = (props) => (
               </p>
               <a href="/" className="block mt-2">
                 <p className="text-xl font-semibold text-gray-900">
-                  How to use search engine optimization to drive sales
+                  Cum medicina nocere, omnes nixes acquirere raptus, gratis
+                  fugaes.
                 </p>
                 <p className="mt-3 text-base text-grayTones-500">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
@@ -138,7 +139,7 @@ const Component = (props) => (
               </p>
               <a href="/" className="block mt-2">
                 <p className="text-xl font-semibold text-gray-900">
-                  Improve your customer experience
+                  Historia, zirbus, et burgus.
                 </p>
                 <p className="mt-3 text-base text-grayTones-500">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
@@ -192,7 +193,7 @@ const Component = (props) => (
               </p>
               <a href="/" className="block mt-2">
                 <p className="text-xl font-semibold text-gray-900">
-                  Boost your conversion rate
+                  Est raptus magister, cesaris.
                 </p>
                 <p className="mt-3 text-base text-grayTones-500">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -245,7 +246,7 @@ const Component = (props) => (
               </p>
               <a href="/" className="block mt-2">
                 <p className="text-xl font-semibold text-gray-900">
-                  How to use search engine optimization to drive sales
+                  Superbus, alter calceuss unus pugna de emeritis, velox glos.
                 </p>
                 <p className="mt-3 text-base text-grayTones-500">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
@@ -299,7 +300,7 @@ const Component = (props) => (
               </p>
               <a href="/" className="block mt-2">
                 <p className="text-xl font-semibold text-gray-900">
-                  Improve your customer experience
+                  Orexis, devatio, et nutrix.
                 </p>
                 <p className="mt-3 text-base text-grayTones-500">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint

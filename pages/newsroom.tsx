@@ -6,7 +6,7 @@ import ServicesServices from '@components/ServicesServices';
 import Newsroom from '@components/Newsroom';
 
 const Home = () => (
-  <div className="reverse-gradient pt-16 md:pt-24">
+  <div className="reverse-gradient pt-16 md:pt-20">
     <Newsroom />
   </div>
 );

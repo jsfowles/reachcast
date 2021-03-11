@@ -94,7 +94,7 @@ const Component = (props) => (
                 type="text"
                 name="first_name"
                 id="first_name"
-                autocomplete="given-name"
+                autoComplete="given-name"
                 className="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border-grayTones-200 bg-white-light rounded-md"
               />
             </div>
@@ -111,7 +111,7 @@ const Component = (props) => (
                 type="text"
                 name="last_name"
                 id="last_name"
-                autocomplete="family-name"
+                autoComplete="family-name"
                 className="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border-grayTones-200 bg-white-light rounded-md"
               />
             </div>
@@ -128,7 +128,7 @@ const Component = (props) => (
                 type="text"
                 name="company"
                 id="company"
-                autocomplete="organization"
+                autoComplete="organization"
                 className="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border-grayTones-200 bg-white-light rounded-md"
               />
             </div>
@@ -145,7 +145,7 @@ const Component = (props) => (
                 id="email"
                 name="email"
                 type="email"
-                autocomplete="email"
+                autoComplete="email"
                 className="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border-grayTones-200 bg-white-light rounded-md"
               />
             </div>
@@ -176,7 +176,7 @@ const Component = (props) => (
                 type="text"
                 name="phone_number"
                 id="phone_number"
-                autocomplete="tel"
+                autoComplete="tel"
                 className="py-3 px-4 block w-full pl-20 focus:ring-indigo-500 focus:border-indigo-500 border-grayTones-200 bg-white-light rounded-md"
                 placeholder="+1 (555) 987-6543"
               />
@@ -193,7 +193,6 @@ const Component = (props) => (
               <textarea
                 id="message"
                 name="message"
-                rows="4"
                 className="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border-grayTones-200 bg-white-light rounded-md"
               />
             </div>

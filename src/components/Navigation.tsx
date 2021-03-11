@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useState } from 'react';
 import Link from 'next/link';
 
@@ -10,15 +11,16 @@ const NAV_ITEMS = [
 
 const Component = (props) => {
   const [toggleMenu, setToggleMenu] = useState(false);
-
   const [colorChange, setColorchange] = useState(false);
+
   const changeNavbarColor = () => {
-    if (window.scrollY >= 80) {
+    if (window.scrollY >= 1) {
       setColorchange(true);
     } else {
       setColorchange(false);
     }
   };
+
   if (typeof window !== 'undefined') {
     window?.addEventListener('scroll', changeNavbarColor);
   }
@@ -29,14 +31,16 @@ const Component = (props) => {
         colorChange ? 'bg-white' : 'bg-transparent'
       } z-50 inset-x-0`}
     >
-      <div className="max-w-7xl mx-auto px-4 py-4">
+      <div className="max-w-7xl mx-auto px-4 py-2">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <div
-              className={`${
-                colorChange ? 'bg-blue-light' : 'bg-white'
-              } rounded-full w-10 h-10 md:w-16 md:h-16 flex-shrink-0 flex items-center`}
-            />
+            <div>
+              {colorChange ? (
+                <img src="images/Mark-Dark.svg" className="w-36 md:w-full" />
+              ) : (
+                <img src="images/Mark-Light.svg" className="w-36 md:w-full" />
+              )}
+            </div>
             <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
               {NAV_ITEMS.map(({ id, title, route }) => (
                 <Link href={route} passHref>

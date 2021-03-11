@@ -5,7 +5,7 @@ import ServicesCTA from '@components/ServicesCTA';
 import ServicesServices from '@components/ServicesServices';
 
 const Home = () => (
-  <div className="reverse-gradient pt-16 md:pt-24">
+  <div className="reverse-gradient pt-16 md:pt-20">
     <ServicesCTA />
     <ServicesServices />
   </div>
