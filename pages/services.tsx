@@ -1,13 +1,11 @@
-import Hero from '@components/Hero';
-import CTA from '@components/CTA';
-import Speakers from '@components/Speakers';
 import ServicesCTA from '@components/ServicesCTA';
 import ServicesServices from '@components/ServicesServices';
 
 const Home = () => (
-  <div className="reverse-gradient pt-16 md:pt-20">
+  <div className="pt-16 md:pt-20 bg-gradient-to-br to-blue from-red">
     <ServicesCTA />
     <ServicesServices />
   </div>
 );
+
 export default Home;
